@@ -1,0 +1,37 @@
+THE SECURITY DICTIONARY: TRAIL EDITION — Concept lines
+======================================================
+
+One CONCEPT line per security term. Drop into the master template's CONCEPT
+line. Each term maps to a findable (or doable) outdoor experience, chosen so a
+child can physically act it out rather than memorize a definition.
+
+IOC — Indicator of Compromise — a clue that someone or something was somewhere
+they shouldn't be.
+  Outdoor experience: find evidence something was here (footprints, a
+  knocked-over pot, crumbs a bird left).
+
+Alert — a warning that tells you to pay attention because something might need
+looking at.
+  Outdoor experience: notice things that grab your attention (a loud bird call,
+  a dog barking, leaves rustling).
+
+Firewall — a barrier that decides what is allowed through and what gets kept out.
+  Outdoor experience: find barriers that filter (a fence, a gate, a hedge, a
+  screen door).
+
+Encryption — turning a message into a secret code so only someone with the key
+can read it.
+  Outdoor experience: invent a secret signal only you and a trusted person
+  understand (the secret rule is the "key").
+
+Phishing — something that looks friendly or inviting but is really a trick to
+get you to trust it.
+  Outdoor experience: notice something bright and tempting — feel the pull, but
+  pause and don't go to it.
+
+-------------------------------------------------------------------
+Design note: terms split into "concrete" (IOC, Alert, Firewall) which map to a
+findable object, and "abstract" (Encryption, Phishing) which need a do-it or
+notice-it framing instead. Abstract terms need concept-matched examples in the
+prompt or the small model drifts. Not every security term fits this format —
+the ones chosen are the ones that translate to physical discovery.

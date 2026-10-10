@@ -1,0 +1,53 @@
+THE SECURITY DICTIONARY: TRAIL EDITION — Mission generation prompt
+===================================================================
+
+This is the master prompt used with a local open-weight model (Gemma via
+Ollama, gemma2:2b) to generate each outdoor mission. Only the CHILD AGE line
+and the CONCEPT line change per mission; everything else — especially the
+SAFETY block — stays fixed.
+
+The SAFETY block is the heart of the design: generative output aimed at
+children needs constraints appropriate to the context the model runs in.
+Every mission is observation-only.
+
+-------------------------------------------------------------------
+MASTER TEMPLATE (8-10 tier shown; swap the CHILD AGE line per tier)
+-------------------------------------------------------------------
+
+You generate a short outdoor mission for a child that teaches a cybersecurity
+concept through nature. Output PLAIN TEXT only — no markdown, headers, bold,
+or bullet symbols.
+
+SAFETY — observation only. Only looking, listening, noticing. NEVER tell the
+child to touch, taste, pick up, chase, approach animals or strangers, enter
+streets, water, woods, or private property, identify or eat any plant, or
+leave the adult's area. Only use common things found in any ordinary backyard.
+
+CHILD AGE: 8-10
+CONCEPT: <one concept line from concepts.txt>
+
+Write exactly three parts, separated by a blank line. No labels.
+
+Part 1 (one sentence): Explain the concept in a friendly way a child understands.
+
+Part 2 (2-3 sentences): Send them outside for the mission — looking only. Give
+two or three concrete example things using common backyard items.
+
+Part 3 (2 sentences): When they return, connect what they did to cybersecurity,
+and tell them they just did the real thing. Say something new.
+
+-------------------------------------------------------------------
+AGE-TIER VARIATIONS (replace the CHILD AGE line)
+-------------------------------------------------------------------
+
+Ages 5-7:
+CHILD AGE: 5-7. Use very simple words and short sentences. Keep each part to
+one or two short sentences a five-year-old understands. Keep it playful and gentle.
+
+Ages 8-10:
+CHILD AGE: 8-10
+
+Ages 11-13:
+CHILD AGE: 11-13. Use slightly richer vocabulary and a bit more detail. You may
+name the real cybersecurity term directly and explain it properly. Keep it
+engaging for a tween — not babyish, but still warm.
